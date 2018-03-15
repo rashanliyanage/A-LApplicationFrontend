@@ -1,0 +1,26 @@
+.ng-valid[required], .ng-valid.required  {
+    border-left: 5px solid #42A948; /* green */
+  border: 5px solid lawngreen;
+  }
+  
+  .ng-invalid:not(form)  {
+    border: 5px solid #a94442; /* red */
+  }
+  input.ng-untouched{
+  border: 3px solid lightgray
+  
+  }
+  
+  input.ng-dirty{
+      background: black;
+      color: white;
+  
+  }
+  .card{
+    
+        box-shadow: 1px 2px 4px rgba(0.7, 0.7, 0.7, .7);
+    }
+    .app{
+    
+        background-color: rgb(109, 109, 170);
+    }
